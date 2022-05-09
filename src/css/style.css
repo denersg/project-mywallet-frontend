@@ -1,0 +1,33 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+
+    /* Usar somente no título 'MyWallet' */
+    /* font-family: 'Saira Stencil One', cursive; */
+}
+
+.content{
+    /* width: 375px; */
+    height: 100vh;
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: #8C11BE;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+/* --------- Configurações do Scroll --------- */
+::-webkit-scrollbar{
+    display: none;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(138, 138, 138);
+    border-radius: 10px;
+}
